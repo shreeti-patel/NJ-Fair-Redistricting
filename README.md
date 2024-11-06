@@ -1,6 +1,6 @@
 # NJ-Fair-Redistricting
 
-# Fair Map using Flood Fill
+# Generating a Fair Map using Flood Fill
 
 This project uses a modified flood-fill algorithm to redistrict New Jersey in a way that minimizes the effects of gerrymandering, focusing on population balance and geographic contiguity. It begins with a partially painted map to maintain group interests and then optimally assigns precincts to districts, ensuring each district grows with balanced populations. This project is structured in two parts: Part 1, using the flood-fill algorithm to assign precincts, and Part 2, filling in unassigned precincts.
 
